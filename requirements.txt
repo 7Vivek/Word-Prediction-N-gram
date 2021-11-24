@@ -107,7 +107,6 @@ pyttsx3==2.90
 PyTweening==1.0.3
 pytz==2020.1
 PyWavelets==1.0.3
-pypiwin32==223
 PyYAML==3.13
 requests==2.22.0
 requests-oauthlib==1.2.0
