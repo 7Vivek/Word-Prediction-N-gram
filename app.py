@@ -6,6 +6,7 @@ import sys
 from nltk.corpus import brown
 from nltk.corpus import reuters
 import nltk
+nltk.download('brown')
 from nltk.corpus import PlaintextCorpusReader
 # from . import Suggestion 
 
