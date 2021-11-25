@@ -1,4 +1,4 @@
-brown
+
 reuters
 PlaintextCorpusReader
 
