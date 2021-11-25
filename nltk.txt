@@ -1,7 +1,4 @@
-
 reuters
-PlaintextCorpusReader
-
 wordnet
 pros_cons
 hmm_treebank_pos_tagger
