@@ -3,17 +3,12 @@ from flask import Flask, render_template, url_for, request
 from pprint import pprint
 import simplejson as json
 import sys 
+import nltk
+nltk.download('brown')
+nltk.download('reuters')
+nltk.download('PlaintextCorpusReader')
 from nltk.corpus import brown
 from nltk.corpus import reuters
-import nltk
-import ssl
-try:
-    _create_unverified_https_context = ssl._create_unverified_context
-except AttributeError:
-    pass
-else:
-    ssl._create_default_https_context = _create_unverified_https_context
-nltk.download()
 from nltk.corpus import PlaintextCorpusReader
 # from . import Suggestion 
 
