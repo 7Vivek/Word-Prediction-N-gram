@@ -32,7 +32,6 @@ docutils==0.15.2
 entrypoints==0.3
 enum-compat==0.0.3
 fbchat==1.7.3
-Flask==1.1.1
 Flask-Caching==1.8.0
 Flask-Ext==0.1
 Flask-WTF==0.14.2
