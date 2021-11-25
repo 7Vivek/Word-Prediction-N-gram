@@ -11,6 +11,9 @@ from nltk.corpus import reuters
 from nltk.corpus import PlaintextCorpusReader
 # from . import Suggestion 
 
+dl = nltk.downloader.Downloader("http://nltk.github.com/nltk_data/")
+dl.download()
+
 app = Flask(__name__)
 
 def get_trigram_freq(tokens):
