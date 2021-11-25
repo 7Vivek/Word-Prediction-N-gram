@@ -19,7 +19,7 @@ cffi==1.14.0
 chardet==3.0.4
 ChatterBot==1.0.4
 chatterbot-corpus==1.2.0
-Click==7.0
+Click==8.0.3
 cloudpickle==1.2.1
 cmake==3.17.3
 colorama==0.4.3
