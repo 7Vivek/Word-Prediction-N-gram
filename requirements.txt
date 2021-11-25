@@ -130,7 +130,7 @@ virtualenv==16.7.2
 watchdog==0.9.0
 wcwidth==0.2.5
 WebOb==1.8.5
-Werkzeug==0.15.5
+Werkzeug==2.0.2
 whitenoise==4.1.4
 WTForms==2.2.1
 zipp==0.6.0
