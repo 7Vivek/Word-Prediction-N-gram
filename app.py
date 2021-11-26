@@ -1,11 +1,11 @@
 from flask import Flask, render_template, url_for, request
+nltk.download('all')
 from nltk.downloader import download, download_shell 
 
 from pprint import pprint
 import simplejson as json
 import sys 
 import nltk
-nltk.download("brown")
 from nltk.corpus import brown
 from nltk.corpus import reuters
 from nltk.corpus import PlaintextCorpusReader
