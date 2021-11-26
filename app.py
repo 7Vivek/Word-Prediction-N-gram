@@ -1,5 +1,7 @@
 from flask import Flask, render_template, url_for, request
-nltk.download('all')
+nltk.download('brown')
+nltk.download('reuters')
+nltk.download('PlaintextCorpusReader')
 from nltk.downloader import download, download_shell 
 
 from pprint import pprint
